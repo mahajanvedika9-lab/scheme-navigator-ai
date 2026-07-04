@@ -1,6 +1,7 @@
 import Navbar from "@/components/layout/navbar";
 import Hero from "@/components/home/hero";
 import SearchSection from "@/components/home/searchsection";
+import Categories from "@/components/home/categories";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <SearchSection />
+      <Categories />
     </>
   );
 }
