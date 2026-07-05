@@ -3,6 +3,7 @@ import Hero from "@/components/home/hero";
 import SearchSection from "@/components/home/searchsection";
 import Categories from "@/components/home/categories";
 import HowItWorks from "@/components/home/howitworks";
+import FeaturedSchemes from "@/components/home/featuredscheme";
 export default function Home() {
   return (
     <>
@@ -11,6 +12,7 @@ export default function Home() {
       <SearchSection />
       <Categories />
       <HowItWorks />
+      <FeaturedSchemes />
     </>
   );
 }
