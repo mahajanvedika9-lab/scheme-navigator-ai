@@ -12,7 +12,10 @@ export default function SearchSection() {
           className="w-full outline-none"
         />
 
-        <button className="rounded-lg bg-indigo-600 px-6 py-2 text-white">
+        <button className="rounded-lg bg-indigo-600 px-6 py-2 text-white rounded-2xl
+shadow-xl
+border focus:ring-4
+focus:ring-indigo-200">
           Search
         </button>
       </div>

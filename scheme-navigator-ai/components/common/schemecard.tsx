@@ -10,7 +10,11 @@ export default function SchemeCard({
   description,
 }: SchemeCardProps) {
   return (
-    <div className="rounded-2xl border bg-white p-6 shadow-sm transition hover:shadow-lg">
+    <div className="rounded-2xl border bg-white p-6 shadow-md
+hover:shadow-xl
+transition-all
+duration-300
+hover:-translate-y-2">
       <span className="rounded-full bg-blue-100 px-3 py-1 text-sm text-blue-700">
         {category}
       </span>

@@ -10,7 +10,11 @@ export default function StepCard({
   description,
 }: StepCardProps) {
   return (
-    <div className="rounded-2xl border bg-white p-6 shadow-sm transition hover:shadow-lg">
+    <div className="rounded-2xl border bg-white p-6 shadow-md
+hover:shadow-xl
+transition-all
+duration-300
+hover:-translate-y-2">
       <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-indigo-600 text-xl font-bold text-white">
         {number}
       </div>

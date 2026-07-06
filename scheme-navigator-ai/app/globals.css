@@ -1,3 +1,9 @@
+:root{
+  --primary:#5B3DF5;
+  --secondary:#7C5CFF;
+  --accent:#EEF2FF;
+  --background:#FAFAFC;
+}
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
