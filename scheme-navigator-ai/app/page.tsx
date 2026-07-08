@@ -4,6 +4,7 @@ import SearchSection from "@/components/home/searchsection";
 import Categories from "@/components/home/categories";
 import HowItWorks from "@/components/home/howitworks";
 import FeaturedSchemes from "@/components/home/featuredscheme";
+import EligibilityForm from "@/components/form/eligibilityform";
 export default function Home() {
   return (
     <>
@@ -13,6 +14,7 @@ export default function Home() {
       <Categories />
       <HowItWorks />
       <FeaturedSchemes />
+      <EligibilityForm />
     </>
   );
 }
